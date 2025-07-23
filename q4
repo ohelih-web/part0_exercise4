@@ -50,7 +50,7 @@ sequenceDiagram
 
     browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/data.json
     activate server
-    server->>browser: the JSON file
+    server->>browser: [{ "content": "she is from the islanss", "date": "2025-7-23" }, ... ]
     deactivate server
 
 
